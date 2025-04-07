@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-server-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -v && java -version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x",
+    "java": ">=17"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
